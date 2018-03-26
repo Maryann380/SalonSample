@@ -1,0 +1,48 @@
+.container{
+    background: pink;
+}
+.active{
+    background: yellow;
+}
+.module-nav{
+    display:block;
+    background:purple;
+}
+li, a{
+padding: 5px;
+display: inline;
+}
+.existing-customer{
+    display: block;
+}
+
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#Home {background-color:pink;}
+#Gallery{background-color:green;}
+#About{background-color:blue;}
+#Appointment {background-color:yellow;}
