@@ -1,0 +1,5 @@
+10:57:56.911 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.11.0', revision: 'e59cfb3'
+10:57:56.912 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4444
+2018-04-12 10:57:56.998:INFO::main: Logging initialized @348ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:57:57.154 INFO [SeleniumServer.boot] - Welcome to Selenium for Workgroups....
+10:57:57.154 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
