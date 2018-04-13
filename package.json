@@ -46,7 +46,8 @@
     "font-awesome": "^4.7.0",
     "grunt-contrib-sass": "^1.0.0",
     "node-gyp": "^3.6.2",
-    "phantomjs": "^2.1.7"
+    "phantomjs": "^2.1.7",
+    "semver": "^5.5.0"
   },
   "description": "",
   "main": "Gruntfile.js",
