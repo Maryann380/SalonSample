@@ -1,21 +1,18 @@
 {
   "src_folders" : ["nightwatch-test"],
-  "output_folder" : "reports",
+  "output_folder" : "",
   "custom_commands_path" : "",
   "custom_assertions_path" : "",
   "page_objects_path" : "",
-  "globals_path" : "",
-
   "selenium" : {
-    "start_process" : false,
-    "server_path" : "",
-    "log_path" : "",
+    "start_process" : true,
+    "server_path" : "lib/drivers/selenium-server-standalone-3.11.0.jar",
+    "start_session": true,
+    "log_path" : "log/",
     "host": "127.0.0.1",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "",
-      "webdriver.gecko.driver" : "",
-      "webdriver.edge.driver" : ""
+      "webdriver.chrome.driver" : "lib/drivers/chromedriver"
     }
   },
 
@@ -23,23 +20,33 @@
     "default" : {
       "launch_url" : "http://localhost",
       "selenium_port"  : 4444,
-      "selenium_host"  : "127.0.0.1",
+      "selenium_host"  : "localhost",
       "silent": true,
       "screenshots" : {
         "enabled" : false,
-        "path" : ""
+        "path" : "screenshots/Chrome"
+      },
+      "firefox":{
+          "desiredCapabilities":{
+          "browserName": "firefox",
+          "marionette": true
+        }
       },
       "desiredCapabilities": {
-        "browserName": "firefox",
-        "marionette": true,
-        "javascriptEnabled": true,
-        "acceptSslCerts": true
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": [
+          "disable-web-security",
+          "ignore-certificate-errors",
+          "--test-type"
+          ]
+        }
       }
     },
 
-    "chrome" : {
+    "edge" : {
       "desiredCapabilities": {
-        "browserName": "chrome"
+        "browserName": "MicrosoftEdge"
       }
     }
   }

@@ -1,5 +1,7 @@
-10:57:56.911 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.11.0', revision: 'e59cfb3'
-10:57:56.912 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4444
-2018-04-12 10:57:56.998:INFO::main: Logging initialized @348ms to org.seleniumhq.jetty9.util.log.StdErrLog
-10:57:57.154 INFO [SeleniumServer.boot] - Welcome to Selenium for Workgroups....
-10:57:57.154 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+22:19:23.463 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.11.0', revision: 'e59cfb3'
+22:19:23.466 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4444
+2018-04-13 22:19:23.622:INFO::main: Logging initialized @506ms to org.seleniumhq.jetty9.util.log.StdErrLog
+22:19:23.773 INFO [SeleniumServer.boot] - Welcome to Selenium for Workgroups....
+22:19:23.773 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+22:19:24.039 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Salon}
+22:19:24.041 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)

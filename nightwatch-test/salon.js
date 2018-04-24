@@ -31,7 +31,7 @@ module.exports = {
           .keys(browser.Keys.NULL);
   
         browser
-          .setValue('#loginUsername', 'rohit');
+          .setValue('#loginUsername', 'Mary');
         // Then I can tab through all options:Login (d) Tab
         browser
           .keys(browser.Keys.TAB)
